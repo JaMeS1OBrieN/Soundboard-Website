@@ -2,7 +2,7 @@
 
 A browser-based soundboard project with a large collection of sound clips and a set of playback and customisation tools.
 
-The project was developed as part of the Astrocore work by **Geosjobbydo and Figi8Cake**. This repository is my fork, kept as part of my development history and as a place to explore the original website source.
+The project was developed as part of the Astrocore work by **Figi8Cake and Geosjobbydo**. This repository is my fork, kept as part of my development history and as a place to explore the original website source.
 
 <https://ultimatesoundboard.xyz>
 
@@ -56,7 +56,7 @@ For the best results, run it through a local static web server so browser featur
 
 ## Credits
 
-The original project credits **Geosjobbydo and Figi8Cake** as its creators and was associated with [Astrocore](https://astrocore.net/).
+The original project credits **Figi8Cake and Geosjobbydo** as its creators and was associated with [Astrocore](https://astrocore.net/).
 
 This repository is a fork of the [Astrocore Team source repository](https://github.com/astrocore-team/astrocore-team.github.io). Credit for the original project and its assets remains with their respective creators.
 

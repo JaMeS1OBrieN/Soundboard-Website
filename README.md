@@ -1,65 +1,65 @@
-# Ultimatesoundboard 🔉
-![Website](https://img.shields.io/website?color=light%20green&down_color=red&down_message=Maintenance&label=Website&style=plastic&up_color=Light%20green&up_message=Online&url=https%3A%2F%2Fultimatesoundboard.xyz) ![Discord](https://img.shields.io/discord/894937415607779349?color=%23521380&label=Discord&logo=Discord&style=plastic) ![GitHub issues](https://img.shields.io/github/issues-raw/astrocore-team/ultimatesoundboard?color=%231f71a3&label=Pull%20requests&logo=github&style=plastic) ![GitHub repo size](https://img.shields.io/github/repo-size/astrocore-team/ultimatesoundboard?color=%23ff0000&label=Site%20size&logo=Javascript&logoColor=red&style=plastic)
+# Ultimate Soundboard
 
-***The best Soundboard site This year!🔊*** 
-* [🔗Libraries](https://github.com/astrocore-team/Ultimatesoundboard/blob/main/README.md#libraries-)
-* [💻How to Contribute](https://github.com/astrocore-team/Ultimatesoundboard/blob/main/README.md#how-to-contribute)
-* [👨‍💻Creators](https://github.com/astrocore-team/Ultimatesoundboard#creators)
-* [🟪Discord](https://github.com/astrocore-team/Ultimatesoundboard#discord)
-* [©License](https://github.com/astrocore-team/Ultimatesoundboard#-license)
- <hr width=100%>
- 
-# Libraries 🔗
-   <p align="left">
-     <img src="https://github.com/astrocore-team/Ultimatesoundboard/blob/main/assets/pngegg.png?raw=true" alt="Jquery Logo">
-     <hr width=100%>
-     
-*This site was coded in* **Html**, **CSS** *and* **Javascript!**
-<p align='left'>
-   <img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/Html.png?raw=true" alt="Html Logo" style="height: 145px; width:165px;">
-   <img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/CSS.png?raw=true" alt="CSS logo" style="height: 135px; width:145px;">
-   <img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/Javascript.png?raw=true" alt="Javascript Logo" style="height: 150px; width:175px;">
-   
-# 💻How to Contribute
-  *If you want to contribute to the other site! send a pull request with the added code, or send us an email with the audio file you want to add to the site!*
-   ```
-   contact@astrocore.net
-   ```
-   <hr width=100%>
-   
-  *Here is the source code!* 
-   * [📁Download](https://github.com/astrocore-team/Ultimatesoundboard/archive/refs/heads/main.zip)
+A browser-based soundboard project with a large collection of sound clips and a set of playback and customisation tools.
 
-# 👨‍💻Creators
-  *The creators of Ultimatesoundboard are **Geosjobbydo** and **Figi8Cake**!* **|** *Figi8cake is the owner of [Astrocore](https://Astrocore.net)
-, A company for making digital media. and geosjobbydo is the Co-Owner for Astrocore*
-<p>
-<ul style="align-items: center; justify-content: space-between;">
- <a target="_blank" href="https://geosjobby.xyz"><img src="https://github.com/astrocore-team/Ultimatesoundboard/blob/main/assets/geosjobbydo.png?raw=true" alt="Geosjobbydo's Site" style="height: 350px; width:375px;"><a target="_blank" href="https://figi8cake.xyz"><img src="https://github.com/astrocore-team/Ultimatesoundboard/blob/main/assets/Figi8Cake.png?raw=true" alt="Figi8Cake's Site" style="height: 350px; width:375px; margin-left:20px;"></p>
-</ul>
+The project was developed as part of the Astrocore work by **Geosjobbydo and Figi8Cake**. This repository is my fork, kept as part of my development history and as a place to explore the original website source.
 
-# 🟪Discord
-  *Come join the* **Discord** *if you need support or want to chat with the community!*
-<p align='left'>
- <a target="_blank" href="https://discord.gg/8aVJtkpk2j"><img src="https://github.com/astrocore-team/Ultimatesoundboard/blob/main/assets/discord-logo-png-7620.png?raw=true" alt="Discord Invite" style="height: 350px; width:375px;"></a></p>
-    
-# 👁‍🗨Preview
-   *Here's the preview of the Site!*
- 
-# © License
-*Copyright (c) Astrocore. All rights reserved.*
+<https://ultimatesoundboard.xyz>
 
-*Licensed under the [CC](LICENSE) license.*
+## Features
 
-<a target="_blank" href="https://creativecommons.org/licenses/"><img src="https://github.com/Astrocore-team/Ultimatesoundboard/blob/main/assets/cc.png?raw=true" alt="Creative commons logo" style="height: 300px; width:350px;"></a>
-     
-  
-     
+- Search through the soundboard buttons.
+- Play individual sound effects, or use the random and play-all controls.
+- Add and remove favourite sounds, with favourites saved in browser storage.
+- Adjust playback speed and volume.
+- Switch between available colour themes.
+- Use the browser's text-to-speech capability.
+- Generate tones with the frequency control.
+- Show or hide sounds marked as NSFW.
+- Stop active audio playback.
 
- 
-     
-   
- 
+Some features depend on browser support and the browser's audio and speech APIs.
 
+## Built with
 
+- **HTML** — page structure and soundboard controls
+- **CSS** — layout and themes
+- **JavaScript** — sound playback, search, favourites and settings
+- **jQuery** — DOM utilities
+- **Web Audio API** — tone generation
+- **Web Speech API** — text-to-speech
+- **HTML audio** — playback of the bundled sound files
 
+## Repository structure
+
+```
+.
+├── assets/       # Images and interface assets
+├── Js/
+│   └── Main.js   # Soundboard behaviour
+├── sounds/       # Audio clips
+├── themes/       # Stylesheets for the available themes
+├── index.html    # Main soundboard page
+├── .htaccess
+├── LICENSE
+└── README.md
+```
+
+## Run locally
+
+There is no build step or package installation required.
+
+1. Clone or download this repository.
+2. Open `index.html` in a modern web browser.
+
+For the best results, run it through a local static web server so browser features behave consistently. The page loads jQuery from a CDN, so an internet connection is needed for that dependency.
+
+## Credits
+
+The original project credits **Geosjobbydo and Figi8Cake** as its creators and was associated with [Astrocore](https://astrocore.net/).
+
+This repository is a fork of the [Astrocore Team source repository](https://github.com/astrocore-team/astrocore-team.github.io). Credit for the original project and its assets remains with their respective creators.
+
+## License
+
+See the [LICENSE](LICENSE) file for the licence included with this repository.
